@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700&family=Montserrat:wght@300&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,8 +21,13 @@
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -29,22 +48,24 @@ main section {
     color: #2D2E62;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #119DA4;
-}
-
-body {
-    background-color: #ffffff;
 }
 
 header {
     background-color: #2D2E62;
 }
 
-footer {
-    background-color: #2D2E62;
+nav a {
+    text-align: center;
     color: #ffffff;
+    text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -52,41 +73,78 @@ nav a:hover {
     color: #FFC857;
 }
 
-nav a {
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-}
-
 .book,
 .join {
     background-color: #2D2E62;
     color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover,
-.join:hover {
+.book:hover {
     background-color: #19647E;
     color: #FFC857;
 }
 
+.join:hover {
+    background-color: #FFC857;
+    color: #2D2E62;
+}
+
 .msg {
     background-color: #19647E;
+    padding: 35px;
+    line-height: 1.5em;
 }
 
-.msg h2,
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
-.home-title,
+.msg h2 {
+    color: white;
+    font-family: Blinker, Helvetica, sans-serif;
+}
+
+.card-img {
+    border: 10px solid #2D2E62;
+}
+
 h4 {
     color: #19647E;
 }
 
+.home-title {
+    color: #19647E;
+    font-family: Blinker, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #2D2E62;
+    color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
 footer h3 {
     color: white;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
