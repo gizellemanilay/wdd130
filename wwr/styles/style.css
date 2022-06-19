@@ -207,7 +207,6 @@ nav a:hover {
     line-height: 1.5em;
     margin-top: 200px;
     width: 600px;
-    height: 600px;
     padding-top: 0;
     grid-column: 6/10;
     grid-row: 3/5;
@@ -231,10 +230,9 @@ nav a:hover {
     line-height: 1.5em;
     margin-top: 150px;
     width: 600px;
-    height: 600px;
     padding-top: 0;
     grid-column: 6/10;
-    grid-row: 5/7;
+    grid-row: 5/8;
     box-shadow: 5px 5px 10px #19647E;
 }
 
