@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700&family=Montserrat:wght@300&display=swap');
+
+body {
+    background-color: #ffffff;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 85px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+header {
+    background-color: rgba(45, 46, 98, .9);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #19647E;
+    color: #FFC857;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+.home-title {
+    color: #119DA4;
+    font-family: Blinker, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.idaho_river, 
+.utah_river,
+.arizona_river {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #19647E;
+}
+
+.book_now {
+    background-color: #2D2E62;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book_now:hover {
+    background-color: #19647E;
+    color: #FFC857;
+}
+
+#background {
+    height: 725px;
+    background-color: #119DA4;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+main section {
+    text-align: center;
+    color: #2D2E62;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.msg {
+    background-color: #19647E;
+    padding: 35px;
+    line-height: 1.5em;
+    grid-column: 4/10;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #19647E;
+}
+
+.msg p {
+    color: white;
+    font-size: .6em;
+    padding-bottom: 15px;
+}
+
+.msg h2 {
+    color: white;
+    font-family: Blinker, Helvetica, sans-serif;
+}
+
+
+
+footer {
+    background-color: #2D2E62;
+    color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer a {
+    background-color: #2D2E62;
+    color: #FFC857;
+    text-decoration: none;
+}
+
+footer h3 a:hover {
+    background-color: #2D2E62;
+    color: #119DA4;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+
+    #hero,
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+
+    nav,
+    footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    #hero {
+        margin-top: 0;
+    }
+
+    #hero-msg {
+        margin-top: 0;
+    }
+
+    #hero-msg h4 {
+        display: none;
+    }
+
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+
+    .rivers-card,
+    .camping-card,
+    .rapids-card {
+        margin: 50px auto;
+        width: 60%;
+    }
+
+    #background {
+        display: none;
+    }
+
+    .mountains,
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
