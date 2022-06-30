@@ -120,7 +120,7 @@ main section img {
 }
 
 #background {
-    height: 750px;
+    height: 840px;
     background-color: #576CA8;
     grid-column: 1/11;
     grid-row: 6/11;
@@ -141,6 +141,12 @@ main section img {
     padding-bottom: 15px;
 }
 
+.msg h2 {
+    color: #274690;
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+
 .join {
     background-color: #274690;
     color: #ffffff;
@@ -153,7 +159,7 @@ main section img {
 
 .join:hover {
     background-color: #576CA8;
-    color: #B76D68;
+    color: white;
 }
 
 
@@ -216,7 +222,7 @@ footer a {
 
 footer h3 a:hover {
     background-color: #B76D68;
-    color: white;
+    color: #576CA8;
     text-decoration: underline;
 }
 
